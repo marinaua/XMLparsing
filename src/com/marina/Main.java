@@ -75,7 +75,7 @@ public class Main {
                 System.out.println("Storm name: " + stormName + ". Max sustained windspeed: " + maxWind + " knots.");
                 hurricaneData.close();
             } catch (IOException ex) {
-                System.out.println("Troubles in opening the connection. More: " + ex);
+                System.out.println("Read more: " + ex);
             }
         } catch (MalformedURLException ex) {
             System.out.println("Unexpected URL. More: " + ex);
